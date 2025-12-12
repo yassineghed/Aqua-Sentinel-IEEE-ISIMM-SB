@@ -1,8 +1,12 @@
 
-## Aqua Sentinel  
-Autonomous Marine Monitoring System  
+# Aqua Sentinel  
+### Autonomous Marine Monitoring System 
 
-"Aqua Sentinel" is an integrated underwater monitoring system designed to support marine conservation, biodiversity assessment and invasive species detection. It combines an underwater camera unit, AI-powered analysis models and the MarineGuard application to deliver actionable insights for researchers, fishermen and coastal communities.
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/system.png" width="300">
+</p>
+
+An integrated underwater monitoring system designed to support marine conservation, biodiversity assessment and invasive species detection. It combines an underwater camera unit, AI-powered analysis models and the MarineGuard application to deliver actionable insights for researchers, fishermen and coastal communities.
 
 ---
 
