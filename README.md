@@ -60,6 +60,5 @@ See `docs/System_Overview.md` for:
 
 ---
 
-## 👥 Credits
-Developed for the **TSYP 13 Technical Challenge** in support of sustainable marine conservation.
-
+## 💻 Technologies
+React js / Expo / Yolo / utlralyrics / Rasspberry
