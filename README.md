@@ -28,9 +28,9 @@ Provide an affordable and autonomous solution to:
 3. Read the system structure in `docs/System_Overview.md`
    - Explains how the models and app fit into the project.
   
- ## 🛠 Tech Stack
+ ## 🛠 Technologies
 
-**AI & Data**
+** AI & Data **
 - Python & OpenCV  
 - YOLO-based for Fish Detection
 - BoT-SORT & ByteTrack for Object Tracking 
@@ -40,7 +40,7 @@ Provide an affordable and autonomous solution to:
 </p>
 
 
-**Software & App**
+** App **
 - Mobile App (React Native)  
 - Optional Backend API (FastAPI or Node.js or Flask)
 
@@ -48,7 +48,7 @@ Provide an affordable and autonomous solution to:
   <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app.png " width="500">
 </p>
 
-**Tools**
+** Tools **
 - Google Colab (training)  
 - GitHub (version control)  
 - RoboFlow (Annotation)
