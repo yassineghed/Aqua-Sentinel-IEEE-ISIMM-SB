@@ -19,13 +19,19 @@ model/
 ├─ model_card.md
 └─ README.md                
 ```
-### Model 1: Fish Detection Model
+## Model 1: Fish Detection Model
 - Computer vision model for detecting and classifying marine species.
 - Trained on underwater images and video frames.
 - Uses deep learning techniques for multi-object detection.
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/model1.png" width="750">
+</p>
 
-### Model 2 – Fish Tracking and Population Flow Analysis
+## Model 2 – Fish Tracking and Population Flow Analysis
 
 - Tracks individual fish across video frames by assigning persistent IDs.
 - Counts how many fish cross predefined virtual lines in the video.
 - Estimate population flow and support ecological monitoring and biodiversity analysis
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/model_2.png" width="750">
+</p>
