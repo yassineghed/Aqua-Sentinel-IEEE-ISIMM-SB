@@ -34,17 +34,28 @@ Provide an affordable and autonomous solution to:
 - Python & OpenCV  
 - YOLO-based for Fish Detection
 - BoT-SORT & ByteTrack for Object Tracking 
-- ONNX / TFLite for model export  
+- ONNX / TFLite for model export
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/ai.png" width="500">
+</p>
+
 
 **Software & App**
 - Mobile App (React Native)  
 - Optional Backend API (FastAPI or Node.js or Flask)
+
+  <p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app.png " width="500">
+</p>
 
 **Tools**
 - Google Colab (training)  
 - GitHub (version control)  
 - RoboFlow (Annotation)
 
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/autres.png " width="700">
+</p>
 ---
 
 ## 🤖 Artificial Intelligence Models
