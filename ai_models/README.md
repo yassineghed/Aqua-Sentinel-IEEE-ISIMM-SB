@@ -30,7 +30,7 @@ model/
 ## Model 2 – Fish Tracking and Population Flow Analysis
 
 - Tracks individual fish across video frames by assigning persistent IDs.
-- Counts how many fish cross predefined virtual lines in the video.
+- Counts how many fish cross the predefined virtual red lines in the video.
 - Estimate population flow and support ecological monitoring and biodiversity analysis
 <p align="center">
   <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/model_2.png" width="750">
