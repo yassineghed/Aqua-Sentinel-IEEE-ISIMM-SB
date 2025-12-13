@@ -39,7 +39,6 @@ Provide an affordable and autonomous solution to:
   <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/ai.png" width="500">
 </p>
 
-
 ** App **
 - Mobile App (React Native)  
 - Optional Backend API (FastAPI or Node.js or Flask)
@@ -47,6 +46,11 @@ Provide an affordable and autonomous solution to:
   <p align="center">
   <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app.png " width="500">
 </p>
+
+** IOT **
+- Rassbeurry Pi 4 
+- Rasbeurry Pi Camera 2 
+
 
 ** Tools **
 - Google Colab (training)  
