@@ -41,15 +41,15 @@ Provide an affordable and autonomous solution to:
 
 ** App **
 - Mobile App (React Native)  
-- Optional Backend API (FastAPI or Node.js or Flask)
+- Optional Backend API (FastAPI or Flask)
 
   <p align="center">
   <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app.png " width="500">
 </p>
 
 ** IOT **
-- Rassbeurry Pi 4 
-- Rasbeurry Pi Camera 2 
+- Raspberry Pi 4
+- Raspberry Pi Camera Module 2
 
 
 ** Tools **
@@ -60,48 +60,3 @@ Provide an affordable and autonomous solution to:
 <p align="center">
   <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/autres.png " width="700">
 </p>
----
-
-## 🤖 Artificial Intelligence Models
-
-### 1. Fish Detection (Model 1)
-A YOLO-based model for detecting and classifying marine species from underwater video frames.
-
-### 2. Growth Prediction (Model 2)
-A regression-driven model using environmental data and detection outputs to estimate population growth and ecological trends.
-
-Each model folder includes:
-- Dataset folder (raw, labeled, processed, samples)
-- Training notebook (Colab)
-- Requirements file
-- Model card
-- Documentation
-
----
-
-## 📱 MarineGuard Application
-A mobile app providing:
-- Underwater observation access
-- Real-time detection alerts
-- Species profiles
-- Educational content
-- Community contribution features
-
-An optional backend API can support:
-- Prediction endpoints
-- User authentication  
-- Report storage  
-
----
-
-## 📘 Documentation
-See `docs/System_Overview.md` for:
-- System architecture
-- Hardware/software overview
-- Data pipeline
-- AI workflow
-
----
-
-## 💻 Technologies
-React js / Expo / Yolo / utlralyrics / Rasspberry
