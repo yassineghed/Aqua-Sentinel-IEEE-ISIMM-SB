@@ -51,6 +51,10 @@ Provide an affordable and autonomous solution to:
 - Raspberry Pi 4
 - Raspberry Pi Camera Module 2
 
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/raspberry.png " width="500">
+</p>
+
 
 ** Tools **
 - Google Colab (training)  
