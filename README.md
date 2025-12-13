@@ -52,7 +52,7 @@ Provide an affordable and autonomous solution to:
 - Raspberry Pi Camera Module 2
 
 <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/raspberry.jgp " width="500">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/raspberry.jpg " width="500">
 </p>
 
 
