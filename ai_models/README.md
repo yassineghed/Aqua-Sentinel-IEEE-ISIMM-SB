@@ -29,8 +29,3 @@ model/
 - Tracks individual fish across video frames by assigning persistent IDs.
 - Counts how many fish cross predefined virtual lines in the video.
 - Estimate population flow and support ecological monitoring and biodiversity analysis
----
-
-Setting up the AI Models
-
-- Make sure you have CV2 and import YOLO from ultralytics
