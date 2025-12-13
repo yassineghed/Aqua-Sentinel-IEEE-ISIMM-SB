@@ -19,6 +19,34 @@ Provide an affordable and autonomous solution to:
 
 ---
 
+ ## 🚀 How to Use This Repository
+
+1. Explore the AI models inside `ai_models/`
+   - Each model has datasets, training notebooks and export files.
+2. Navigate to `marineguard_app/` to see the app layout.
+   - Contains `mobile/` and optional `backend_api/`.
+3. Read the system structure in `docs/System_Overview.md`
+   - Explains how the models and app fit into the project.
+  
+ ## 🛠 Tech Stack
+
+**AI & Data**
+- Python & OpenCV  
+- YOLO-based for Fish Detection
+- BoT-SORT & ByteTrack for Object Tracking 
+- ONNX / TFLite for model export  
+
+**Software & App**
+- Mobile App (React Native)  
+- Optional Backend API (FastAPI or Node.js or Flask)
+
+**Tools**
+- Google Colab (training)  
+- GitHub (version control)  
+- RoboFlow (Annotation)
+
+---
+
 ## 🤖 Artificial Intelligence Models
 
 ### 1. Fish Detection (Model 1)
