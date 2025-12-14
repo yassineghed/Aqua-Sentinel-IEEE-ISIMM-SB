@@ -1,6 +1,15 @@
 # Mediterranean Marine Species Monitoring System
  
 MarineGuard is a cutting-edge web application designed to monitor and identify Mediterranean fish species using AI-powered analysis of BRUV (Baited Remote Underwater Video) camera footage. This platform specifically focuses on the coastal waters around Monastir and the Kuriat Islands Marine Protected Area. real-time alerts, identification tools, and valuable data insights.
+ <center>
+        <table>
+            <tr>
+                <!-- First image -->
+                <td><img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app_vid_1.gif" width="470"></td>
+                <td><img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app_vid-11.gif" width="470"></td>
+             </tr>
+        </table>
+    </center>
 
 ## Features
 
