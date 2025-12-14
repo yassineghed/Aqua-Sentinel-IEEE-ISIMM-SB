@@ -14,15 +14,15 @@ MarineGuard is a application designed to monitor and identify Mediterranean fish
 </p>
 
 *   **Core Functionality**:
-    *   **Dashboard**: Personalized overview based on user role (Citizen, Researcher, Fisher).
-    *   **Streams Feed**: Streams feed form BRUV (Baited Remote Underwater Video) cameras.
-    *   **Alerts System**: Notification system for new invasive species sightings and environmental warnings.
-    *   **Fish Identifier**: Tool to upload images and identify marine species using AI (integration point).
-    *   **Map Interface**: Interactive map showing sighting locations and hotspots.
-    *   **Education Hub**: Resources and guides about local marine life and invasive species.
-    *   **Weather Forecast**: Marine weather conditions for safe maritime activities. (! Future Plan)
-    *   **Community Forum**: Platform for discussion and knowledge sharing.
-    *   **Authentication**: Secure Login and Signup flows.
+    *   **Dashboard**:  Personalized overview based on user role (Citizen, Researcher, Fisher).
+    *   **Streams Feed**:  Streams feed form BRUV (Baited Remote Underwater Video) cameras.
+    *   **Alerts System**:  Notification system for new invasive species sightings and environmental warnings.
+    *   **Fish Identifier**:  Tool to upload images and identify marine species using AI (integration point).
+    *   **Map Interface**:  Interactive map showing sighting locations and hotspots.
+    *   **Education Hub**:  Resources and guides about local marine life and invasive species.
+    *   **Weather Forecast**:  Marine weather conditions for safe maritime activities. (! Future Plan)
+    *   **Community Forum**:  Platform for discussion and knowledge sharing.
+    *   **Authentication**:  Secure Login and Signup flows.
 ### Here’s a quick demo showcasing how the app is organized.
 <br>
 
@@ -51,14 +51,12 @@ MarineGuard is a application designed to monitor and identify Mediterranean fish
 
 # Setting up the Mobile Application
 
-### Prerequisites
+## + Mobile
 
 Ensure you have the following installed:
 *   [Node.js](https://nodejs.org/) (v18 or higher recommended)
-*   npm or yarn
-
-### Installation
-
+*   npm
+  
 1.  **Clone the repository:**
     ```bash
     git clone <repository-url>
@@ -68,16 +66,34 @@ Ensure you have the following installed:
 2.  **Install dependencies:**
     ```bash
     npm install
-    # or
-    yarn install
     ```
 
 3.  **Run the development server:**
     ```bash
     npm run dev
-    # or
-    yarn dev
     ```
 
 4.  **Open the app:**
     Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## + Backend 
+
+1. Run the backend : 
+```bash
+cd path/to/marine-guard-api
+```
+2. connect to virtual environment : 
+```bash
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+3. install dependencies
+```bash
+python -m pip install "numpy<2" ultralytics fastapi uvicorn
+pip install python-multipart
+python -m pip install --upgrade pip setuptools wheel
+```
+4. run the backend :
+```bash
+python main.py http://localhost:8000/
+```
