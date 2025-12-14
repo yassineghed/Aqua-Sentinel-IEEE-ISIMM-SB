@@ -63,13 +63,3 @@ The notebook provides live metrics such as precision, recall, and mAP.
 </p>
 
 The trained model can perform inference on individual images or full video sequences.
-
----
-
-## 📝 Notes
-- Trained using YOLOv8n architecture
-- Dataset labeled and managed with Roboflow
-- Extensive data augmentation applied
-- Optimized for underwater environments
-- Training performed on Google Colab
-
