@@ -59,7 +59,7 @@ The notebook provides live metrics such as precision, recall, and mAP.
 - Confidence scores per detection
 
 <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m1.gif" alt="Output example (detected species)" width="800" />
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m11.gif" alt="Output example (detected species)" width="800" />
 </p>
 
 The trained model can perform inference on individual images or full video sequences.
