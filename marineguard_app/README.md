@@ -1,15 +1,7 @@
 # Mediterranean Marine Species Monitoring System
  
-MarineGuard is a cutting-edge web application designed to monitor and identify Mediterranean fish species using AI-powered analysis of BRUV (Baited Remote Underwater Video) camera footage. This platform specifically focuses on the coastal waters around Monastir and the Kuriat Islands Marine Protected Area. real-time alerts, identification tools, and valuable data insights.
- <center>
-        <table>
-            <tr>
-                <!-- First image -->
-                <td><img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app_vid_1.gif" width="470"></td>
-                <td><img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app_vid-11.gif" width="470"></td>
-             </tr>
-        </table>
-    </center>
+MarineGuard is a application designed to monitor and identify Mediterranean fish species using AI-powered analysis of BRUV (Baited Remote Underwater Video) camera footage. <br> This platform specifically focuses on the coastal waters around Monastir and the Kuriat Islands Marine Protected Area. real-time alerts, identification tools, and valuable data insights.
+
 
 ## Features
 
@@ -31,6 +23,19 @@ MarineGuard is a cutting-edge web application designed to monitor and identify M
     *   **Weather Forecast**: Marine weather conditions for safe maritime activities.
     *   **Community Forum**: Platform for discussion and knowledge sharing.
     *   **Authentication**: Secure Login and Signup flows.
+### Here’s a quick demo showcasing how the app is organized.
+<br>
+
+ <center>
+        <table>
+            <tr>
+                <!-- First image -->
+                <td><img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app_vid_1.gif" width="470"></td>
+                <td><img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app_vid-11.gif" width="470"></td>
+             </tr>
+        </table>
+</center>
+<br> 
 
 ## Tech Stack
 
@@ -42,6 +47,7 @@ MarineGuard is a cutting-edge web application designed to monitor and identify M
 <p align="center">
   <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/apptools1.png" width="700">
 </p>
+
 
 # Setting up the Mobile Application
 
@@ -75,13 +81,3 @@ Ensure you have the following installed:
 
 4.  **Open the app:**
     Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Project Structure
-
-*   `app/`: Main application source code (App Router).
-    *   `layout.tsx`: Root layout component.
-    *   `page.tsx`: Main entry point and screen routing logic.
-*   `components/`: Reusable UI components.
-    *   `screens/`: Full-page screen components (e.g., `dashboard-screen.tsx`, `login.tsx`).
-    *   `ui/`: Base UI elements (buttons, inputs, cards) from Shadcn.
-*   `public/`: Static assets (images, icons).
