@@ -13,6 +13,41 @@ This model focuses on **spatial detection and species identification**, serving 
 
 ---
 
+## Input
+- Labeled underwater image frames (YOLO format)
+- Multi-class annotations (including unknown species)
+- Dataset split using stratified sampling
+
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/input_m2.gif" alt="Video Input Example" width="800" />
+</p>
+
+---
+## 📊 Dataset Preparation
+- Extracted video frames → base training samples
+- Manual annotation in Roboflow → bounding boxes + species (incl. “unknown”)
+- Labels in YOLO format → direct training compatibility
+- Stratified train/val/test split → rare species included in all sets
+- Data augmentation → scaling, rotation, brightness, blur/noise for underwater variability
+- Original dataset kept clean → augmentations applied only during training
+- training Yolo8n model on the augmented dataset
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/fish_detection_pipline.png" alt="Video Input Example" width="800" />
+</p>
+
+## Output
+- Bounding boxes for detected fish
+- Species class labels (≈8 classes, including unknown)
+- Confidence scores per detection
+
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m11.gif" alt="Output example (detected species)" width="800" />
+</p>
+
+The trained model can perform inference on individual images or full video sequences.
+
+---
+
 ## ⚙ Setup Instructions (for Windows users)
 
 ### 1. Create a virtual environment
@@ -40,37 +75,3 @@ pip install -r requirements.txt
 
 The notebook provides live metrics such as precision, recall, and mAP.
 
----
-
-## Input
-- Labeled underwater image frames (YOLO format)
-- Multi-class annotations (including unknown species)
-- Dataset split using stratified sampling
-
-<p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/input_m2.gif" alt="Video Input Example" width="800" />
-</p>
-
----
-## 📊 Dataset Preparation
-- Extracted video frames → base training samples
-- Manual annotation in Roboflow → bounding boxes + species (incl. “unknown”)
-- Labels in YOLO format → direct training compatibility
-- Stratified train/val/test split → rare species included in all sets
-- Training-time augmentation → scaling, rotation, brightness, blur/noise for underwater variability
-- Original dataset kept clean → augmentations applied only during training
-
-<p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/Fish_tracking_pipline.png" alt="Video Input Example" width="800" />
-</p>
-
-## Output
-- Bounding boxes for detected fish
-- Species class labels (≈8 classes, including unknown)
-- Confidence scores per detection
-
-<p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m11.gif" alt="Output example (detected species)" width="800" />
-</p>
-
-The trained model can perform inference on individual images or full video sequences.
