@@ -15,12 +15,12 @@ MarineGuard is a application designed to monitor and identify Mediterranean fish
 
 *   **Core Functionality**:
     *   **Dashboard**: Personalized overview based on user role (Citizen, Researcher, Fisher).
-    *   **Live Feed**: Real-time monitoring feed (simulated/placeholder) for BRUV (Baited Remote Underwater Video) cameras.
+    *   **Streams Feed**: Streams feed form BRUV (Baited Remote Underwater Video) cameras.
     *   **Alerts System**: Notification system for new invasive species sightings and environmental warnings.
     *   **Fish Identifier**: Tool to upload images and identify marine species using AI (integration point).
     *   **Map Interface**: Interactive map showing sighting locations and hotspots.
     *   **Education Hub**: Resources and guides about local marine life and invasive species.
-    *   **Weather Forecast**: Marine weather conditions for safe maritime activities.
+    *   **Weather Forecast**: Marine weather conditions for safe maritime activities. (! Future Plan)
     *   **Community Forum**: Platform for discussion and knowledge sharing.
     *   **Authentication**: Secure Login and Signup flows.
 ### Here’s a quick demo showcasing how the app is organized.
