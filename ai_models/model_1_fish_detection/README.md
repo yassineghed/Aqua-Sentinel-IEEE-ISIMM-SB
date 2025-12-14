@@ -48,10 +48,21 @@ The notebook provides live metrics such as precision, recall, and mAP.
 - Dataset split using stratified sampling
 
 <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/input_m2.gif" alt="Input example (labeled frames)" width="800" />
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/input_m2.gif" alt="Video Input Example" width="800" />
 </p>
 
 ---
+## 📊 Dataset Preparation
+- Extracted video frames → base training samples
+- Manual annotation in Roboflow → bounding boxes + species (incl. “unknown”)
+- Labels in YOLO format → direct training compatibility
+- Stratified train/val/test split → rare species included in all sets
+- Training-time augmentation → scaling, rotation, brightness, blur/noise for underwater variability
+- Original dataset kept clean → augmentations applied only during training
+
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/Fish_tracking_pipline.png" alt="Video Input Example" width="800" />
+</p>
 
 ## Output
 - Bounding boxes for detected fish
