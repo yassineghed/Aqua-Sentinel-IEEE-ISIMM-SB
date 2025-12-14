@@ -42,8 +42,10 @@ The notebook provides visual feedback including bounding boxes, tracking IDs, an
 ## Input
 - Underwater video files (MP4 or similar)
 - Pre-trained YOLO model weights
-[▶ Watch Demo Video](https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/input_m2.mp4)
-[![Demo Video](https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/model_2.png)](https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/input_m2.mp4)
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/input_m2.gif" alt="Input exemple (video format!" width="800" />
+  </a>
+</p>
 
 ---
 
@@ -53,9 +55,11 @@ The notebook provides visual feedback including bounding boxes, tracking IDs, an
   - Tracking IDs
   - Virtual counting lines
 - Fish counts per specie
-  exemple: [▶ Watch Demo Video](https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/output_m2.mp4)
+  exemple: <p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m2.gif" alt="Input exemple (video format!" width="800" />
+  </a>
+</p>
 
-
-These outputs can support ecological analysis and reporting.
+These outputs are helpful for ecological analysis and reporting.
 
 
