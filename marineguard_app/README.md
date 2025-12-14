@@ -1,9 +1,5 @@
-# MarineGuard - SIGHT ISIMM Research Platform
-
-> Mediterranean Marine Species Monitoring System
-> 
-> Developed by **SIGHT Lab** - Institut Supérieur d'Informatique et de Mathématiques de Monastir (ISIMM)
-
+# Mediterranean Marine Species Monitoring System
+ 
 MarineGuard is a cutting-edge web application designed to monitor and identify Mediterranean fish species using AI-powered analysis of BRUV (Baited Remote Underwater Video) camera footage. This platform specifically focuses on the coastal waters around Monastir and the Kuriat Islands Marine Protected Area. real-time alerts, identification tools, and valuable data insights.
 
 ## Features
@@ -12,6 +8,9 @@ MarineGuard is a cutting-edge web application designed to monitor and identify M
     *   **Citizens**: Report sightings, access educational resources, and participate in community forums.
     *   **Researchers**: Analyze data trends, manage alerts, and validate reported sightings.
     *   **Fishers**: Access weather forecasts, market data, and report invasive catches.
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/User Roles.png" width="600">
+</p>
 
 *   **Core Functionality**:
     *   **Dashboard**: Personalized overview based on user role (Citizen, Researcher, Fisher).
@@ -28,9 +27,6 @@ MarineGuard is a cutting-edge web application designed to monitor and identify M
 
 *   **Frontend**: [Next.js](https://nextjs.org/) (React Framework)
 *   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-*   **UI Components**: [Shadcn/ui](https://ui.shadcn.com/) (based on Radix UI)
-*   **Icons**: [Lucide React](https://lucide.dev/)
-*   **Charts**: [Recharts](https://recharts.org/)
 *   **Maps**: [React Leaflet](https://react-leaflet.js.org/) (Assumed/Suggested for Map implementation)
 *   **Language**: TypeScript
 
@@ -40,7 +36,7 @@ MarineGuard is a cutting-edge web application designed to monitor and identify M
 
 Ensure you have the following installed:
 *   [Node.js](https://nodejs.org/) (v18 or higher recommended)
-*   npm or pnpm or yarn
+*   npm or yarn
 
 ### Installation
 
@@ -55,8 +51,6 @@ Ensure you have the following installed:
     npm install
     # or
     yarn install
-    # or
-    pnpm install
     ```
 
 3.  **Run the development server:**
@@ -64,8 +58,6 @@ Ensure you have the following installed:
     npm run dev
     # or
     yarn dev
-    # or
-    pnpm dev
     ```
 
 4.  **Open the app:**
