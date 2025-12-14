@@ -28,9 +28,13 @@ MarineGuard is a cutting-edge web application designed to monitor and identify M
 *   **Frontend**: [Next.js](https://nextjs.org/) (React Framework)
 *   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 *   **Maps**: [React Leaflet](https://react-leaflet.js.org/) (Assumed/Suggested for Map implementation)
+*   **Backend**: FastApi
 *   **Language**: TypeScript
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/apptools1.png" width="700">
+</p>
 
-## Getting Started
+# Setting up the Mobile Application
 
 ### Prerequisites
 
