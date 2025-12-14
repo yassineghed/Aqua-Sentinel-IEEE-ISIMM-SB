@@ -41,10 +41,10 @@ Provide an affordable and autonomous solution to:
 
 ** App **
 - Mobile App (React Native)  
-- Optional Backend API (FastAPI or Flask)
+- Optional Backend API (FastAPI)
 
   <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app.png " width="500">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app1.png " width="500">
 </p>
 
 ** IOT **
