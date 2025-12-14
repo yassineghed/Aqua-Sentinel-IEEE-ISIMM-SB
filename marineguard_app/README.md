@@ -76,7 +76,3 @@ Ensure you have the following installed:
     *   `screens/`: Full-page screen components (e.g., `dashboard-screen.tsx`, `login.tsx`).
     *   `ui/`: Base UI elements (buttons, inputs, cards) from Shadcn.
 *   `public/`: Static assets (images, icons).
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
