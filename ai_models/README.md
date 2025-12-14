@@ -24,7 +24,7 @@ model/
 - Trained on underwater images and video frames.
 - Uses deep learning techniques for multi-object detection.
 <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/model1.png" width="770">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/model1_out.png" width="770">
 </p>
 
 ## Model 2 – Fish Tracking and Population Flow Analysis
