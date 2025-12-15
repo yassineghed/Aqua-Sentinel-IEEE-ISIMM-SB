@@ -37,7 +37,7 @@ The interfaces are designed to be accessible, informative, and practical for cit
 ## Setting up the Mobile Application
 
 Ensure you have the following installed:
-*   [Node.js](https://nodejs.org/) (v18 or higher recommended)
+*   [Node.js](https://nodejs.org/)
 *   npm
   
 1.  **Clone the repository:**
