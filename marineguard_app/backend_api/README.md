@@ -1,4 +1,15 @@
 # Backend API
+The backend of the MarineGuard platform is built using FastAPI and serves as the core service layer connecting the mobile application with AI-based analysis and data management components.
+
+It is designed to:
+- Expose RESTful endpoints for fish detection and tracking results
+- Handle user authentication and role-based access
+- Manage alerts related to invasive species and environmental events
+- Store and retrieve reports, observations, and community contributions
+- Act as an integration layer between the mobile application and AI models
+
+The backend architecture prioritizes scalability, clarity, and ease of integration, making it suitable for research and prototype deployment.
+
 ## + Backend Setup
 
 1. Run the backend : 
