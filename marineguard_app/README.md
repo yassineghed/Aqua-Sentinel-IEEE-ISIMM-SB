@@ -54,7 +54,7 @@ MarineGuard is a application designed to monitor and identify Mediterranean fish
 ## + Mobile
 
 Ensure you have the following installed:
-*   [Node.js](https://nodejs.org/) (v18 or higher recommended)
+*   [Node.js](https://nodejs.org/)
 *   npm
   
 1.  **Clone the repository:**
@@ -77,15 +77,16 @@ Ensure you have the following installed:
     Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## + Backend 
-
+### Requirements
+- Install Python 3.11
 1. Run the backend : 
 ```bash
 cd path/to/marine-guard-api
 ```
 2. connect to virtual environment : 
 ```bash
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+py -3.11 -m venv venv
+.\venv\Scripts\activate.bat
 ```
 3. install dependencies
 ```bash
@@ -95,5 +96,7 @@ python -m pip install --upgrade pip setuptools wheel
 ```
 4. run the backend :
 ```bash
-python main.py http://localhost:8000/
+python main.py
 ```
+5. then open: http://localhost:8000/
+
