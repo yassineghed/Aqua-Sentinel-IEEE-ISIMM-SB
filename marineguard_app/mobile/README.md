@@ -11,7 +11,7 @@ The application emphasizes:
 
 The interfaces are designed to be accessible, informative, and practical for citizens, researchers, and fishers.
 
-### Here’s a quick demo showcasing how the app is organized.
+### Here’s a quick demo showcasing how the interfaces are organized.
 <br>
 
  <center>
