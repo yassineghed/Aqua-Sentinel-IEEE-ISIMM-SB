@@ -2,7 +2,7 @@
  
 MarineGuard is a application designed to monitor and identify Mediterranean fish species using AI-powered analysis of BRUV (Baited Remote Underwater Video) camera footage. <br> This platform specifically focuses on the coastal waters, Islands and Marine Protected Area providing real-time alerts, identification tools, and valuable data insights.
 
-
+<br>
 ## Features
 
 *   **User Roles**: Tailored experiences for three distinct user types:
