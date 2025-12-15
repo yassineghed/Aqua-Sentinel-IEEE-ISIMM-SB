@@ -31,7 +31,7 @@ This model complements the detection model by adding **temporal and behavioral a
   - Virtual counting lines
 - Fish counts per specie
   exemple: <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m2.gif" alt="Input exemple (video format!" width="800" />
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m2.gif" alt="Input exemple (video format!" width="700" />
   </a>
 </p>
 
