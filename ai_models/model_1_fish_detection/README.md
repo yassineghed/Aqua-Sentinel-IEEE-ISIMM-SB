@@ -4,25 +4,12 @@ This model detects and classifies multiple marine fish species from underwater i
 
 This model focuses on **spatial detection and species identification**, serving as the foundation for higher-level analysis such as tracking and population estimation.
 
----
-
 ## Model Type
 - Object detection (YOLOv8n)
 - Multi-class fish species classification
 - Image and video-based inference
 
----
 
-## Input
-- Labeled underwater image frames (YOLO format)
-- Multi-class annotations (including unknown species)
-- Dataset split using stratified sampling
-
-<p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/input_m2.gif" alt="Video Input Example" width="800" />
-</p>
-
----
 ## 📊 Dataset Preparation
 - Extracted video frames → base training samples
 - Manual annotation in Roboflow → bounding boxes + species (incl. “unknown”)
@@ -30,9 +17,19 @@ This model focuses on **spatial detection and species identification**, serving 
 - Stratified train/val/test split → rare species included in all sets
 - Data augmentation → scaling, rotation, brightness, blur/noise for underwater variability
 - Original dataset kept clean → augmentations applied only during training
-- training Yolo8n model on the augmented dataset
 <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/fish_detection_pipline.png" alt="Video Input Example" width="800" />
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/fish_detection_pipline.png" alt="Video Input Example" width="700" />
+</p>
+<br>
+After the preparation, train Yolo8n model on the augmented dataset
+
+## Input
+- Labeled underwater image frames (YOLO format)
+- Multi-class annotations (including unknown species)
+- Dataset split using stratified sampling
+
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/input_m2.gif" alt="Video Input Example" width="700" />
 </p>
 
 ## Output
@@ -41,12 +38,10 @@ This model focuses on **spatial detection and species identification**, serving 
 - Confidence scores per detection
 
 <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m11.gif" alt="Output example (detected species)" width="800" />
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m11.gif" alt="Output example (detected species)" width="700" />
 </p>
 
 The trained model can perform inference on individual images or full video sequences.
-
----
 
 ## 🚀 Training the Model (Google Colab)
 
@@ -60,4 +55,3 @@ The trained model can perform inference on individual images or full video seque
    - Save the best model weights
 
 The notebook provides live metrics such as precision, recall, and mAP.
-
