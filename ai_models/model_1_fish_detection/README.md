@@ -48,20 +48,6 @@ The trained model can perform inference on individual images or full video seque
 
 ---
 
-## ⚙ Setup Instructions (for Windows users)
-
-### 1. Create a virtual environment
-```
-python -m venv venv
-venv\Scripts\activate
-```
-### 2. Install dependencies
-```
-pip install -r requirements.txt
-```
-
----
-
 ## 🚀 Training the Model (Google Colab)
 
 1. Open `train_colab.ipynb` in Google Colab.
