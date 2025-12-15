@@ -18,7 +18,7 @@ This model focuses on **spatial detection and species identification**, serving 
 - Data augmentation → scaling, rotation, brightness, blur/noise for underwater variability
 - Original dataset kept clean → augmentations applied only during training
 <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/fish_detection_pipline.png" alt="Video Input Example" width="700" />
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/fish_detection_pipline.png" alt="fish_detection_pipline" width="700" />
 </p>
 <br>
 After the preparation, train Yolo8n model on the augmented dataset
@@ -38,10 +38,15 @@ After the preparation, train Yolo8n model on the augmented dataset
 - Confidence scores per detection
 
 <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m11.gif" alt="Output example (detected species)" width="700" />
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/output_m11.gif" alt="Output Example" width="700" />
 </p>
 
 The trained model can perform inference on individual images or full video sequences.
+
+## Model Metrics
+<p align="center">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel-IEEE-ISIMM-SB/blob/main/docs/assets/Model1_Metrics.png" alt="Model1_Metrics" width="200" />
+</p>
 
 ## 🚀 Training the Model (Google Colab)
 
