@@ -10,7 +10,7 @@ An integrated underwater monitoring system designed to support marine conservati
 
 ---
 
-## 🎯 Project Goal
+## Project Goal
 Provide an affordable and autonomous solution to:
 - Monitor marine life in real time
 - Detect invasive or harmful species
@@ -19,7 +19,7 @@ Provide an affordable and autonomous solution to:
 
 ---
 
- ## 🚀 How to Use This Repository
+ ## How to Use This Repository
 
 1. Explore the AI models inside `ai_models/`
    - Each model has datasets, training notebooks and export files.
@@ -28,7 +28,7 @@ Provide an affordable and autonomous solution to:
 3. Read the system structure in `docs/System_Overview.md`
    - Explains how the models and app fit into the project.
   
- ## 🛠 Technologies
+ ## Technologies
 
 ** AI & Data **
 - Python & OpenCV  
