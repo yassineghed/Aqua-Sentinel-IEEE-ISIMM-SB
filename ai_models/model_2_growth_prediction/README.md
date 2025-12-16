@@ -40,10 +40,10 @@ These outputs are helpful for ecological analysis and reporting.
 
 ## 🚀 Running the Model (Google Colab)
 
-1. Open `training.ipynb` in Google Colab.
+1. Open `fish_Tracking.ipynb` in Google Colab.
 2. Install the required libraries inside Colab.
-3. Upload or mount the dataset containing underwater videos.
-4. Load the trained YOLO `.pt` model.
+3. Upload video containing underwater fish. (exemple: dataset/input_m2.mp4)
+4. Load the trained YOLO `best.pt` 1st model to the colab files.
 5. Run the notebook cells to:
    - Detect fish
    - Track unique fish IDs
@@ -51,5 +51,3 @@ These outputs are helpful for ecological analysis and reporting.
    - Generate annotated output videos
 
 The notebook provides visual feedback including bounding boxes, tracking IDs, and live counts.
-
-
