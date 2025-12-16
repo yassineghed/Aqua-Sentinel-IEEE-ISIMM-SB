@@ -40,11 +40,14 @@ Provide an affordable and autonomous solution to:
 </p>
 
 ** App **
-- Mobile App (React Native)  
-- Optional Backend API (FastAPI)
+*   **Frontend**: [Next.js](https://nextjs.org/) (React Framework)
+*   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+*   **Maps**: [React Leaflet](https://react-leaflet.js.org/) (Assumed/Suggested for Map implementation)
+*   **Backend**: FastApi
+*   **Language**: TypeScript
 
   <p align="center">
-  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/app1.png " width="500">
+  <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/apptools1.png " width="600">
 </p>
 
 ** IOT **
