@@ -100,3 +100,18 @@ python main.py
 ```
 5. then open: http://localhost:8000/
 
+
+---
+
+## 🧠 AI Models link :
+👉https://drive.google.com/drive/folders/1kV5WQcSHDzd6yFjxKFjOfejmlamCwVhO?usp=sharing
+
+
+## 📱 Application link :
+👉 https://drive.google.com/drive/folders/1d8OfYvReQYHXChVTvKjehJV1LjSNRXbq?usp=sharing
+---
+> ⚠️ **IMPORTANT NOTICE**  
+> When opening the Google Drive link, please note that **files may take between 1 and 2 minutes to appear**.  
+> This delay is normal due to file size and Google Drive loading behavior.  
+> **Please be patient and do not refresh the page.**
+Please be patient and do not refresh the page.
