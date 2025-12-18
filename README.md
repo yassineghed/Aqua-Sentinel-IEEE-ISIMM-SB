@@ -24,7 +24,18 @@ Provide an affordable and autonomous solution to:
 1. Explore the AI models inside `ai_models/`
    - Each model has datasets, training notebooks and export files.
 2. Navigate to `marineguard_app/` to see the app layout.
-   - Contains `mobile/` and optional `backend_api/`.
+   - Long term, admins use a web dashboard and users use a mobile app.
+   - For this demo, both are combined into a single web app simulation.
+   - Setup instructions:
+
+   **Python setup**
+   - `python -m venv venv`
+   - `source venv/bin/activate`  *(Windows: `venv\Scripts\activate`)*
+   - `pip install -r requirements.txt`
+
+   **App setup**
+   - `npm install`
+   - `npm run dev`
 3. Read the system structure in `docs/System_Overview.md`
    - Explains how the models and app fit into the project.
   
