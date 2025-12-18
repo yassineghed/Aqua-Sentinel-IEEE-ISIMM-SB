@@ -28,12 +28,12 @@ Provide an affordable and autonomous solution to:
    - For this demo, both are combined into a single web app simulation.
    - Setup instructions:
 
-   **Python setup**
+   **- Python setup**
    - `python -m venv venv`
    - `source venv/bin/activate`  *(Windows: `venv\Scripts\activate`)*
    - `pip install -r requirements.txt`
 
-   **App setup**
+   **- App setup**
    - `npm install`
    - `npm run dev`
 3. Read the system structure in `docs/System_Overview.md`
@@ -45,7 +45,6 @@ Provide an affordable and autonomous solution to:
 - Python & OpenCV  
 - YOLO-based for Fish Detection
 - BoT-SORT & ByteTrack for Object Tracking 
-- ONNX / TFLite for model export
 <p align="center">
   <img src="https://github.com/yassineghed/Aqua-Sentinel/blob/main/docs/assets/ai.png" width="500">
 </p>
